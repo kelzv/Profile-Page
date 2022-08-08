@@ -1,1 +1,20 @@
 albert was here
+These are the steps to follow:
+Make sure you have configured your terminal at least with your username and password otherwise you may not be able to carry this out. But if you have done this, you don't have to do it again. To do that, run this on your terminal, first git config --global user.name "your username"  then, git config --global user.email "your email"
+Click here to access the repo https://github.com/Oluwasetemi/altschool-opensource-names
+On getting there, fork the project repo. How?  Click on the fork icon and follow the flow. After this, you should have the copy of this project in your own repo. Check the screenshot attached IMG_1
+From the copy you have in your own repo, copy the project link Click on code and then copy the link or click on the copy icon. Check the screenshot IMG_2
+Open your terminal, cd to where you want to have the project on your Laptop e.g desktop and then run the command git clone the-link-you-copy-above you should see something like this. Check the screenshot IMG_3
+Then cd into the project directory and open it in your code editor.
+You can now open the editor terminal or continue with the previous terminal.
+First thing is to set original repo as upstream. Which one is the original? That of 
+@Oluwasetemi Ojo
+ that we started with. Make sure you use this!. Then run git remote add upstream  https://github.com/Oluwasetemi/altschool-opensource-names.git Check IMG_4
+Then make changes to nmes.txt` file.
+Run git status to check the status to be sure you have actually made any changes. You should see something like Check IMG_5
+Then add your changes git add . (notice the dot or put the name of the file).
+Commit your changes git commit -m "put the commit message here"
+Then run git push origin main You should have something like Check IMG_6
+ Now, go to the copy you have in your own repo. Click on the project and then click on Pull requests and then New pull request Check IMG_7
+If you follow up to here, well done, good job.  Create the PR and copy the link to the PR and send to 
+@Oluwasetemi Ojo
